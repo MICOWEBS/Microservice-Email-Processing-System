@@ -1,4 +1,4 @@
-// Ensure you have installed mongoose and @types/mongoose for type support
+
 import mongoose, { Schema, Document, model } from 'mongoose';
 
 export interface IMessage extends Document {
