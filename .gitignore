@@ -1,0 +1,15 @@
+# Node modules
+service-a-api/node_modules/
+service-b-worker/node_modules/
+
+# Environment files
+service-a-api/.env
+service-b-worker/.env
+
+# Build output
+dist/
+service-a-api/dist/
+service-b-worker/dist/
+
+# Logs
+*.log 

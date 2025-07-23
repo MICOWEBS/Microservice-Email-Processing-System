@@ -1,0 +1,26 @@
+{
+  "name": "service-b-worker",
+  "version": "1.0.0",
+  "main": "dist/worker.js",
+  "scripts": {
+    "start": "node dist/worker.js",
+    "dev": "ts-node src/worker.ts",
+    "build": "tsc",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "dependencies": {
+    "mongoose": "^7.6.3",
+    "bullmq": "^4.12.2",
+    "ioredis": "^5.3.2",
+    "winston": "^3.10.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2",
+    "nodemon": "^3.1.0",
+    "@types/node": "^20.11.30",
+    "@types/mongoose": "^5.11.97",
+    "@types/winston": "^2.4.4"
+  }
+} 
